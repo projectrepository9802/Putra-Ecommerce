@@ -1,0 +1,53 @@
+.product-card {
+  border-radius: 20px;
+}
+
+.product-card > .card-header {
+  height: 160px;
+}
+
+.product-card > .card-header > img {
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-card > .card-body > .name {
+  height: 45px;
+}
+
+.product-card > .card-body > .name > h5 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 14px;
+}
+
+.product-card > .card-body > .desc {
+  height: 50px;
+}
+
+.product-card > .card-body > .desc > p {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 14px;
+}
+
+.product-card > .card-footer {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.visitstorebtn {
+  width: 100%;
+  font-size: 14px;
+  border-radius: 0;
+  border-bottom-left-radius: 20px;
+}
+
+.addtocartbtn {
+  width: 100%;
+  font-size: 14px;
+  border-radius: 0;
+  border-bottom-right-radius: 20px;
+}

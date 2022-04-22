@@ -1,0 +1,48 @@
+CRITICAL - 2022-01-02 08:13:02 --> Undefined array key ""
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Views/frontend/pages/home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/samueladr...', 32)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/samueladr...')
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/HomeController.php(24): view('frontend/pages/...', Array)
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\HomeController->index()
+#6 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#7 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#10 {main}
+CRITICAL - 2022-01-02 08:28:49 --> Undefined variable $product
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Views/frontend/pages/home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/samueladr...', 21)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/samueladr...')
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/HomeController.php(24): view('frontend/pages/...', Array)
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\HomeController->index()
+#6 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#7 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#10 {main}
+CRITICAL - 2022-01-02 08:28:52 --> Undefined variable $product
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Views/frontend/pages/home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/samueladr...', 21)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/samueladr...')
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/HomeController.php(24): view('frontend/pages/...', Array)
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\HomeController->index()
+#6 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#7 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#10 {main}
+CRITICAL - 2022-01-02 11:31:23 --> Undefined variable $in
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Views/frontend/pages/home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/samueladr...', 70)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/samueladr...')
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/HomeController.php(24): view('frontend/pages/...', Array)
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\HomeController->index()
+#6 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#7 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#10 {main}

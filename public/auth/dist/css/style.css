@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "averus";
+  src: url("../../fonts/averus/Averus\ \(DEMO\).ttf");
+}
+
+@font-face {
+  font-family: "aero";
+  src: url("../../fonts/aero/Aero.ttf");
+}
+
+* {
+  font-family: "Source Code Pro";
+}
+
+.custom-font1 {
+  font-family: "averus";
+}
+
+.custom-font2 {
+  font-family: "aero";
+}
+
+.logo-font {
+  font-size: 60px;
+}
+
+.logo-font-part {
+  background: -webkit-linear-gradient(#eee, #00a7f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}
+
+.card-primary.card-outline {
+  border-top: 3px solid #00a7f5;
+}
+
+.input-group-text {
+  background-color: #00a7f5;
+  color: white;
+}
+
+.btn-show {
+  color: white;
+}
+
+.custom-card-auth {
+  border-radius: 20px;
+}

@@ -1,0 +1,34 @@
+CRITICAL - 2022-04-22 06:29:16 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\spark(46): require('C:\\Users\\Samuel...')
+#2 {main}
+ERROR - 2022-04-22 11:36:20 --> Error connecting to the database: Class "SQLite3" not found
+ERROR - 2022-04-22 11:40:35 --> Error connecting to the database: Class "SQLite3" not found
+ERROR - 2022-04-22 11:41:40 --> Error connecting to the database: Class "SQLite3" not found
+CRITICAL - 2022-04-22 02:23:23 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'C:\\Users\\Samuel...', 71)
+#1 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\Users\\Samuel...')
+#2 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\myth\auth\src\Authentication\AuthenticationBase.php(134): session('logged_in')
+#9 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#10 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\myth\auth\src\Filters\RoleFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#11 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#12 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('profile/upgrade', 'before')
+#13 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samuel...')
+#16 {main}
+CRITICAL - 2022-04-22 02:23:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\app\Config\Events.php:35) in C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\Users\\Samuel...', 112)
+#1 C:\Users\Samuel Adriel\Documents\My Projects\PHP\Putra E-Commerce\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

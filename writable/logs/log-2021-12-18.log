@@ -1,0 +1,45 @@
+CRITICAL - 2021-12-18 05:57:39 --> syntax error, unexpected token ")"
+#0 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render('frontend/common...', NULL, true)
+#2 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Views/frontend/index.php(25): CodeIgniter\View\View->include('frontend/common...')
+#3 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/programme...')
+#4 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render('frontend/index', Array, true)
+#6 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#7 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/HomeController.php(24): view('frontend/pages/...', Array)
+#8 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\HomeController->index()
+#9 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#10 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/programme...')
+#13 {main}
+CRITICAL - 2021-12-18 05:58:01 --> syntax error, unexpected token ")"
+#0 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render('frontend/common...', NULL, true)
+#2 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Views/frontend/index.php(25): CodeIgniter\View\View->include('frontend/common...')
+#3 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/programme...')
+#4 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render('frontend/index', Array, true)
+#6 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#7 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/HomeController.php(24): view('frontend/pages/...', Array)
+#8 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\HomeController->index()
+#9 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\HomeController))
+#10 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/programme...')
+#13 {main}
+ERROR - 2021-12-18 20:39:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2) VALUES (('admin','Administrator'), ('penjual','Merchant'), ('pembeli...' at line 1
+CRITICAL - 2021-12-18 07:45:55 --> You do not have sufficient permissions to access that page.
+#0 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('profile', 'before')
+#2 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/programme...')
+#5 {main}
+CRITICAL - 2021-12-18 07:46:13 --> You do not have sufficient permissions to access that page.
+#0 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('profile', 'before')
+#2 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/programme...')
+#5 {main}

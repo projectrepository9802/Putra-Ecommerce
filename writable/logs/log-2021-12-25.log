@@ -1,0 +1,10 @@
+CRITICAL - 2021-12-25 20:40:28 --> syntax error, unexpected token "<"
+#0 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#2 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProfileController.php(34): view('frontend/pages/...', Array)
+#3 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Frontend\ProfileController->index()
+#4 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProfileController))
+#5 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/programmer/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/programme...')
+#8 {main}

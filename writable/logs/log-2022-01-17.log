@@ -1,0 +1,96 @@
+CRITICAL - 2022-01-17 10:19:35 --> Invalid file: frontend/pages/homePages/product-details.php
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/pages/...')
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(128): view('frontend/pages/...', Array)
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->detail('addtocart')
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#8 {main}
+CRITICAL - 2022-01-17 10:19:37 --> Invalid file: frontend/pages/homePages/product-details.php
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/pages/...')
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(128): view('frontend/pages/...', Array)
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->detail('addtocart')
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#8 {main}
+CRITICAL - 2022-01-17 10:19:44 --> Undefined variable $validation
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Views/frontend/index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home/samueladr...', 52)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/samueladr...')
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render('frontend/index', Array, true)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/CartController.php(21): view('frontend/pages/...', Array)
+#6 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\CartController->index()
+#7 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\CartController))
+#8 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#11 {main}
+ERROR - 2022-01-17 11:12:31 --> Unknown column 'cart_session.id_cart' in 'where clause'
+CRITICAL - 2022-01-17 11:12:31 --> Unknown column 'cart_session.id_cart' in 'where clause'
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(143): CodeIgniter\BaseModel->find('2')
+#7 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->addtocart()
+#8 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#9 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#12 {main}
+CRITICAL - 2022-01-17 11:24:10 --> Call to undefined method App\Models\CartModel::num_rows
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(151): CodeIgniter\Model->__call('num_rows', Array)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->addtocart()
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#6 {main}
+CRITICAL - 2022-01-17 11:32:14 --> Undefined property: App\Controllers\Frontend\ProductController::$product
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/samueladr...', 136)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->addtocart()
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#6 {main}
+CRITICAL - 2022-01-17 11:32:17 --> Undefined property: App\Controllers\Frontend\ProductController::$product
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home/samueladr...', 136)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->addtocart()
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#6 {main}
+CRITICAL - 2022-01-17 11:32:48 --> Undefined array key "stock"
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/samueladr...', 139)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->addtocart()
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#6 {main}
+CRITICAL - 2022-01-17 11:37:45 --> Undefined array key "id_cart"
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/samueladr...', 147)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->addtocart()
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#6 {main}
+CRITICAL - 2022-01-17 11:37:52 --> Undefined array key "id_cart"
+#0 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/app/Controllers/Frontend/ProductController.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/samueladr...', 147)
+#1 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProductController->addtocart()
+#2 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+#3 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/samueladriel/Documents/Developments/Codeigniter/Projects/putra-ecommerce/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/samueladr...')
+#6 {main}

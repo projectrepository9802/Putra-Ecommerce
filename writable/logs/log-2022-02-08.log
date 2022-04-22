@@ -1,0 +1,14 @@
+CRITICAL - 2022-02-08 20:45:13 --> Undefined array key 1
+#0 /home/adry2296/public_html/ecommerceputra_core/app/Controllers/Frontend/ProfileController.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/adry2296/public_html/ecommerceputra_core/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProfileController->upgrade()
+#2 /home/adry2296/public_html/ecommerceputra_core/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/adry2296/public_html/ecommerceputra_core/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/adry2296/public_html/ecommerceputra_public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 20:52:38 --> Undefined array key 1
+#0 /home/adry2296/public_html/ecommerceputra_core/app/Controllers/Frontend/ProfileController.php(163): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/adry2296/public_html/ecommerceputra_core/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Frontend\ProfileController->upgrade()
+#2 /home/adry2296/public_html/ecommerceputra_core/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/adry2296/public_html/ecommerceputra_core/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/adry2296/public_html/ecommerceputra_public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
